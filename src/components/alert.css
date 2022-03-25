@@ -1,0 +1,21 @@
+.alertmsg {
+    z-index: 2;
+    width: 200px;
+    bottom: 50px;
+    padding: 18px;
+    right: -200px;
+    font-size: 1rem;
+    position: fixed;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: 500ms ease-in-out;
+    background-color: #90caf9;
+}
+
+.alertmsg.success {
+    background-color: #66bb6a !important;
+}
+
+.alertmsg.error {
+    background-color: #fd5651 !important;
+}
